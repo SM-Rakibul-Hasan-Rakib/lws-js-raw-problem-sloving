@@ -19,7 +19,7 @@ const rolls = roolNumber.sort(function (a, b) {
 
 console.log(rolls);
 
-// the number bim small
+// the number big small count
 
 const employ = [
   "3",
