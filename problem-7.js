@@ -18,3 +18,20 @@ if (rakib < 22 && rafi > 18) {
 // } else {
 //   ("you are not adult");
 // }
+let ages = 18;
+
+console.log(
+  ages >= 18
+    ? age < 30
+      ? "You are an adult"
+      : "You are old"
+    : "You are young!"
+);
+
+let oge = "18";
+oge = Number(oge);
+if (isNaN(oge)) {
+  console.log("Input is not a number");
+} else {
+  console.log(oge < 18 ? "To yoing" : "Old enough");
+}
