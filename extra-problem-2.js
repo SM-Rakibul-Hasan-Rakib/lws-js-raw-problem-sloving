@@ -24,3 +24,13 @@ function finalNumber(x) {
   }
 }
 finalNumber(number);
+
+
+function printName(x){
+  for(i = 1, i <= x; i++){
+     console.log("Rakib")
+  }
+   
+}
+
+printName(3)
