@@ -9,7 +9,7 @@ function checkEvenOdd(x) {
   }
 }
 
-const result = checkEvenOdd(num);
+const result = checkEvenOdd("The last number is a ");
 console.log(result);
 
 // normal funcation declear
@@ -25,12 +25,10 @@ function finalNumber(x) {
 }
 finalNumber(number);
 
-
-function printName(x){
-  for(i = 1, i <= x; i++){
-     console.log("Rakib")
+function printName(x) {
+  for (let i = 1; i <= x; i++) {
+    console.log("Rakib");
   }
-   
 }
 
-printName(3)
+printName(3);
