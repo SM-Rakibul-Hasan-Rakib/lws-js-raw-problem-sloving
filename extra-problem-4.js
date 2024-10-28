@@ -10,5 +10,4 @@ function details(info) {
   }
   return `my name is : ${info.name}, my age is : ${info.age}`;
 }
-
-console.log(details({ name: "Rakib", age: 18 }));
+console.log(details({ name: "Rakib", age: "18" }));
