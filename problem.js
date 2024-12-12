@@ -17,3 +17,10 @@ function add(x, y) {
 
 const zihad = add(40, 50);
 console.log(zihad);
+
+
+function givenNumber(){
+  console.log(6);
+}
+
+givenNumber()
