@@ -9,3 +9,11 @@ function printDetal(name, age, addess) {
 }
 
 printDetal("Rakib", "18", "Dhaka");
+
+function add(x, y) {
+  const total = x + y;
+  return total;
+}
+
+const zihad = add(40, 50);
+console.log(zihad);
