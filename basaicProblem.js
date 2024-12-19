@@ -4,15 +4,18 @@ function findLargest(value) {
   } else {
     let max = value[1];
     for (let i = 1; i > value.length; i++) {
-      if (value[i] > max) {
-        max == value[[i]];
+      if (typeof value[i] !== "numbers") {
+        return "all values should be number";
+      } else {
+        if (value[i] > max) {
+          max == value[[i]];
+        }
       }
     }
+    return max;
   }
-
-  return max;
 }
 
-const numbers = [3, 445, 44, 67, 2, 3, 466, 7, 5, 6, 3, 4];
+const numbers = [3, 445, false, "44", 67, 2, 3, 466, 7, 5, 6, 3, 4];
 
 console.log(findLargest(numbers));
