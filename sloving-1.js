@@ -1,6 +1,10 @@
 function AnaToVori(Ana) {
-  const vori = Ana * 0.0625;
-  return vori;
+  if (typeof Ana !== "number" || Ana < 0) {
+    return "please provide a valid integer number";
+  } else {
+    const vori = Ana * 0.0625;
+    return vori;
+  }
 }
 
-console.log(AnaToVori(32));
+console.log(AnaToVori(22));
