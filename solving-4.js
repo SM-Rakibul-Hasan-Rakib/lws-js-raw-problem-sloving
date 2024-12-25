@@ -18,4 +18,4 @@ function pandaCost(singara, samucha, jilapi) {
   }
 }
 
-console.log(pandaCost(1, 1, -6));
+console.log(pandaCost(1, 1, 6));
