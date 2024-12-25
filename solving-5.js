@@ -10,8 +10,13 @@ function picnicBudget(perticipents) {
     if (perticipents <= 100) {
       first100Cost = perticipents * 5000;
       return first100Cost;
+    } else if (perticipents <= 200) {
+      first100Cost = 5000 * 100;
+      reminingCost = (perticipents - 100) * 4000;
+      total = first100Cost + remiCost;
+      return total;
     }
   }
 }
-
-console.log(picnicBudgets(10));
+// return picnicBudget;
+console.log(picnicBudgets(1001));
